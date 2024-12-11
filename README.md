@@ -22,9 +22,10 @@ git clone https://github.com/gsharikrishna/task-management-system
 
 
 2. Install dependencies:
-cd todo-app
+npm i @reduxjs/toolkit react-redux 
+cd taskmanagementsystem
 npm install
 
-3. Start the app:
+4. Start the app:
 npm start
 
