@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/16ad6e47-91d5-42ee-ae22-f790bfb2d066)
+
 # Todo Application
 
 A simple Todo application built with **React** and **Redux Toolkit** for state management. This app allows users to add, edit, delete, and filter tasks based on their status (To-Do, In Progress, Completed).
@@ -25,3 +27,4 @@ npm install
 
 3. Start the app:
 npm start
+
