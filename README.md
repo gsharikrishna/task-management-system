@@ -20,12 +20,9 @@ A simple Todo application built with **React** and **Redux Toolkit** for state m
 git clone https://github.com/yourusername/todo-app.git
 
 
-### 2. Install dependencies:
-```bash
-d todo-app
+2. Install dependencies:
+cd todo-app
 npm install
 
-
-### 3. Start the app:
-```bash
-  npm start
+3. Start the app:
+npm start
