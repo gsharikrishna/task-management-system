@@ -22,10 +22,14 @@ git clone https://github.com/gsharikrishna/task-management-system
 
 
 2. Install dependencies:
-npm i @reduxjs/toolkit react-redux 
+npm i @reduxjs/toolkit react-redux
+
+3.Move To Directory
 cd taskmanagementsystem
+
+4.Install Project Dependencies:
 npm install
 
-4. Start the app:
+5. Start the app:
 npm start
 
