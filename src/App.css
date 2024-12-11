@@ -1,0 +1,221 @@
+/* Container for the whole Todo Application */
+.todo-app {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left side of the Todo Application */
+.left {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* Right side of the Todo Application */
+.right {
+  flex: 1;
+  margin-left: 20px;
+}
+
+/* Title of the Todo Application */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.filter-buttons button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.filter-buttons button:hover {
+  background-color: #45a049;
+}
+
+/* Task Item Container */
+.tasks-list {
+  margin-top: 20px;
+}
+
+/* Each Task Item Styling */
+.task-item {
+  padding: 15px;
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  max-width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Task Actions (Edit and Delete buttons) */
+.task-item-actions {
+  display: flex; /* Align buttons side by side */
+  gap: 10px; /* Space between the buttons */
+  justify-content: flex-start; /* Align buttons to the left */
+  width: 100%; /* Ensure it takes up the full width of the task item */
+}
+
+/* Edit & Delete Button Styling */
+.task-item button {
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task-item button.edit-btn {
+  background-color: #ffa500; /* Orange for edit */
+}
+
+.task-item button.delete-btn {
+  background-color: #f44336; /* Red for delete */
+}
+
+.task-item button:hover {
+  background-color: #e53935;
+}
+
+.task-item button.edit-btn:hover {
+  background-color: #ff8c00;
+}
+
+.task-item button.delete-btn:hover {
+  background-color: #e53935;
+}
+
+/* Input Fields and Button Styling */
+input,
+textarea,
+select,
+button {
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Add Task Button Styling */
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+button:hover {
+  background-color: #45a049;
+}
+
+/* Task Item Border Styling */
+.task-item {
+  padding: 15px;
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  max-width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* General Styles for Title and Description */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input Fields Styling */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Filter Buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Task Item - Button Padding and Color */
+button {
+  margin-top: 5px;
+  margin-right: 5px;
+  background-color: #f44336;
+}
+
+button:hover {
+  background-color: #e53935;
+}
+button.edit-btn {
+  background-color: #ffa500; /* Orange for edit */
+}
+
+button.edit-btn:hover {
+  background-color: #ff8c00;
+}
+
+/* Delete Button Styling */
+button.delete-btn {
+  background-color: #f44336; /* Red for delete */
+}
+
+button.delete-btn:hover {
+  background-color: #e53935;
+}
+
+/* Input Fields */
+input[type="text"],
+textarea,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
