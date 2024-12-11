@@ -15,9 +15,8 @@ A simple Todo application built with **React** and **Redux Toolkit** for state m
 
 ## How to Run:
 
-### 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/todo-app.git
+1. Clone the repository:
+git clone https://github.com/gsharikrishna/task-management-system
 
 
 2. Install dependencies:
